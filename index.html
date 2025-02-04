@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+    <title> Ruben's Website </title>
+   </head>
+
+    <body>
+        <header>
+            <h1> Ruben's Resume </h1>
+            <nav>
+                <strong>
+                <a href="/courses.html"> Courses </a> |
+                <a href="/interest.html"> Interest </a> |
+                <a href="#">Github</a> |
+                <a href="#">Linkedin</a> |
+                </strong>
+                <address> Email: <a href="mailto:rug005@ucsd.edu"> rug005@ucsd.edu </a> </address>
+                
+            </nav>
+        </header>
+        <hr>
+        <!-- Start of main -->
+        <main>
+            <section>
+                <h2> About Me </h2>
+                <img src = "Images/selfie.avif" alt = "Personal Picture" width="200" height="150">
+                <aside>
+                <h3>Currently I'm...</h3>
+                <p>
+                studying <b><a href = "https://cse.ucsd.edu/"> Computer Science </a> <abbr title="University of California San Diego"
+                    >@UCSD</abbr> </b>
+                I'm expected to finish in <em>March 2025</em>. My plans are to work in <i>Software Engineering</i> or <i>Information Technology.</i>
+            </p>    
+            </aside>
+            </section>
+        </main>
+        <br>
+
+        <!-- <aside> -->
+        <nav>
+            <ul>
+                <li><a href="/"> Home </a>
+                <li><a href="/projects.html"> Projects </a>
+                <li><a href="/courses.html"> Courses </a>
+                <li><a href="/interest.html"> Interest </a></li>
+            </ul>
+        </nav>
+                <svg width="100" height="100">
+                    <circle cx="50" cy="50" r="40" stroke="white" stroke-width="4" fill="blue" />
+                </svg>
+                <canvas id="myCanvas" width="200" height="100" style="border:1px solid">
+                    <strong> Your browser does not support this. </strong>
+                </canvas>
+            
+            <!-- </aside> -->
+
+        <div>
+        <!-- Splits into my personal projects -->
+         <hr>
+        <h2>Projects</h2>
+        <p>Worked on building an Animatronics<p>
+
+        <span style="border: 1px; color:black">
+            <picture>
+                <source media="(max-width:500px)" srcset="Images/bts-ani.avif">
+                <source media="(max-width:800px)" srcset="Images/arduino.avif">
+                <img src = "Images/parrot-bts.JPG" alt = "Working on Animatronics" style="width:50%;">
+            </picture>
+        </span>
+
+            <figure>
+                <video width="300" height="250" controls>
+                <!--<source src = "Videos/Parrot.wmv" type = "video/wmv">-->
+                <source src = "Videos/Parrot2.MP4" type="video/mp4"> 
+                Your broswer does not support the video tag.
+                </video>
+                <figcaption> Above is the parrot helped program and build using arduino </figcaption>
+            </figure>
+        <!-- </span> -->
+        
+        <br>
+
+        <!-- Splits into my Programming Languages/Skills-->
+        <h3> Skills </h3>
+        <details>
+            <summary> Programming Languages </summary>
+        <ul>
+            <li> Java </li>
+            <li> C </li>
+            <li> Python </li>
+            <li> SQL </li>
+        </ul>
+        </details>
+        
+        <details>
+            <summary> Skills </summary>
+            <ol>
+            <li> Problem Solving </li>
+            <li> Creative </li>
+            <li> Adaptability </li>
+            <li> Time Management </li>
+            </ol>
+        </details>
+
+        <details>
+            <summary> Languages </summary>
+        <dl>
+            <dt>I can read and write in...</dt>
+                <dd>English</dd>
+                <dd>Spanish</dd>
+        </dl>
+        </details>
+        </div>
+           <hr> <!-- </hr> -->
+
+
+            <!-- Form to contact me -->
+           <form action="/action_page.php">
+            <fieldset>
+                <legend> Contact Me </legend>
+                    <label for="fname"> First name:</label> 
+                    <input type="text" id="fname" name = "fname"> <!--</br>--><br>
+                    <label for="lname"> Last name:</label> 
+                    <input type="text" id="lname" name = "fname"><!--</br>--><br>
+                    <label for="email"> Email:</label>
+                    <input type="text" id="email" name = "email"><br>
+            
+                
+                <label for="main"> Select a category: </label>
+                    <select name="main" id="main">
+                        <optgroup label="Main Website">
+                            <option value="1"> 1 </option>
+                            <option value="2"> 2 </option>
+                        </optgroup>
+                        <optgroup label="Projects">
+                            <option value="1"> 1 </option>
+                            <option value="2"> 2 </option>
+                        </optgroup>
+                    </select>
+                    <br>
+
+                    <!-- Autocorrects Answer for User -->
+                    <label for="reason">Reason:</label>
+                        <input list="reasons" name="reason" id="reason">
+                        <datalist id="reasons">
+                        <option value="Work"> Work
+                        <option value="Website Issues"> Website Issues
+                        <option value="Other"> Other
+                    </datalist>
+        
+                    <!--  -->
+                    <p><label for="msgtext">Comments</label></p>
+                    <textarea id="msgtext" name="msgtext" rows="3" cols="50">
+                    </textarea>
+                    <button>Submit</button>
+            </fieldset>
+           </form>
+
+           
+           <hr>
+        <footer><pre> Last Updated Feb 1<sup>st</sup>, 2025 </pre>
+        </footer>
+            
+    </body>
+</html>
