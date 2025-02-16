@@ -98,7 +98,10 @@ img.center{
     border: 5px solid #ffffff;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    border-radius: 8px;
+    /* width: 35%; */
+    width: 55dvh;
+    
 }
 #app{
     scroll-snap-type: y mandatory;
