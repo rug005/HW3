@@ -11,10 +11,7 @@ header{
     background-color: #42526E;
     color: #ffffff
 }
-a:hover{
-  transition: margin-out 3s;
-  color:#0071FF;
-}
+
 body.below-body{
     padding-top: 100px;
     background-color: #0a46ad;
@@ -62,13 +59,21 @@ nav a{
 p{
   color: white;
 }
+h1{
+  font-family: RGFont;
+  padding: 5px 5px;
+}
+h1:hover{
+  transform: rotate(360deg);
+  transition: 2s;
+}
 h1:has(+ p){
   margin-bottom: 0;
 }
 @media (color-gamut: srgb){
   p{
     background-color: (in hsl, hsl(20, 89%, 45%), coral 80%);
-    color: black;
+    color: white;
   }
 }
 
@@ -182,3 +187,18 @@ body{
     }
   }
 
+ 
+  nav a:hover{
+    
+    color:#0071FF;
+    transition: margin-out 3s;
+    /*
+    transition: margin-out 3s;
+    transform: scaleX(1.5);
+    transition:2s;
+    */
+  }
+  @font-face {
+    font-family: RGFont;
+    src: url(RGFont-Regular.ttf);
+}

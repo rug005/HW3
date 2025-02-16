@@ -180,7 +180,7 @@ h3.align{
     color:black;
     margin: 1px 1px;
     border-style: outset;
-    animation-name: blinker 2s linear infinite;
+    animation: blinker 2s linear infinite;
 }
 @keyframes blinker{
     80%{
