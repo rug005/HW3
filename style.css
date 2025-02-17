@@ -29,6 +29,7 @@ main{
     margin-top: 125px;
     border: 3px solid #000000;
     background-color: var(--grey-blue);
+    border-radius: 5px;
     
 }
 p.right{
@@ -63,14 +64,15 @@ nav a{
 
 
 /* Goes from column to row if pixels are 520 */
-@media (max-width: 520px) {
+@media (max-width: 480px) {
     nav a {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap; /* Allow items to stack on smaller screens */  
     }
-    .course-div{
-        margin-top: 180px;
+    .center{
+        margin-top: 400px;
+        
     }
 }
 
@@ -165,14 +167,17 @@ h3.align{
     transition: all 100ms ease-out;
     font-size: 30px;
     font-weight: bold;
+    border-radius: 2px;
 }
 #box:hover{
     background-color: white;
+    
 }
 #box2{
     border: 3px solid var(--black);
     padding: 2px 40px;
     background-color: white;
+    margin: 1px 1px;
     font-weight: bold;
     font-family: RGFont;
     font-size: 30px;
