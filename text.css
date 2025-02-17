@@ -37,6 +37,9 @@ nav a{
     margin: 1px 0px;
     border: 2px solid black;
     background-color: #ffffff;
+    font-family: RGFont;
+    font-size: 18px;
+    font-weight: bold;
     color: #000;
 }
 .element{
@@ -56,6 +59,8 @@ nav a{
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
     animation-iteration-count: 3;
+    font-family: RGFont;
+    font-size: 30px;
 }
 /* ======= Testing this out ======= */
 p{
@@ -223,4 +228,9 @@ blockquote{
   @font-face {
     font-family: RGFont;
     src: url(RGFont-Regular.ttf);
+}
+
+.aTab:hover{
+  font-size: 1.2em;
+  background-color: #e4e4e3;
 }
