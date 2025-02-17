@@ -161,8 +161,8 @@ h3.align{
     flex: 1;
     padding: 1px 5px;
     margin: 1px 1px;
-    background-color: rgb(210, 206, 206);
-    transition: all 1s ease-out;
+    background-color: rgb(199, 194, 194);
+    transition: all 100ms ease-out;
     font-size: 30px;
     font-weight: bold;
 }
