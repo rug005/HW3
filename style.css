@@ -29,6 +29,7 @@ main{
     margin-top: 125px;
     border: 3px solid #000000;
     background-color: var(--grey-blue);
+    
 }
 p.right{
     text-align: center;
@@ -191,7 +192,7 @@ h3.align{
     text-align: center;
     padding: 1px 1px;
     background-color: rgb(217, 217, 217);
-    margin: 1px 1px;
+    margin-bottom: 1px;
     border-style: outset;
 }
 #white-border{
