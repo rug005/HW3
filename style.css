@@ -13,8 +13,8 @@ header{
     z-index: 9999;
     text-align: center;
     padding: 1px;
-    border: 1px solid var(--black);
-    background-color: var( --grey-blue);
+    border: 1px solid var(--black,black);
+    background-color: var( --grey-blue,grey);
     color: #ffffff
 }
 h1{
@@ -23,12 +23,12 @@ h1{
 }
 body.below-body{
     padding-top: 150px;
-    background-color: var(--grey-blue);
+    background-color: var(--grey-blue,blue);
 }
 main{
     margin-top: 125px;
     border: 3px solid #000000;
-    background-color: var(--grey-blue);
+    background-color: var(--grey-blue,blue);
     border-radius: 5px;
     
 }
@@ -91,7 +91,7 @@ div.projects{
 
 }
 body.black{
-    background-color: var(--black);
+    background-color: var(--black,black);
     padding: 1px 2px;
     color: white;
     padding-top: 150px;
@@ -131,7 +131,7 @@ h3.align{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--black);
+    background-color: var(--black,black);
     color: white;
 }
 .image{
@@ -155,11 +155,11 @@ h3.align{
 }
 
 #border{
-    border: 3px solid var(--black);
+    border: 3px solid var(--black,black);
 }
 
 #box{
-    border: 3px solid var(--black);
+    border: 3px solid var(--black,black);
     flex: 1;
     padding: 1px 5px;
     margin: 1px 1px;
@@ -174,7 +174,7 @@ h3.align{
     
 }
 #box2{
-    border: 3px solid var(--black);
+    border: 3px solid var(--black,black);
     padding: 2px 40px;
     background-color: white;
     margin: 1px 1px;
@@ -208,10 +208,10 @@ h3.align{
     margin: 1px 10px;
 }
 #date{
-    border: 2px solid var(--black);
+    border: 2px solid var(--black),black;
     text-align: center;
     color: #ffffff;
-    background-color: var(--grey-blue);
+    background-color: var(--grey-blue,grey);
 }
 
 @font-face {
