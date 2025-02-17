@@ -103,8 +103,6 @@ div.projects{
     flex-direction: column;
     justify-content: flex-end;
     border: 3px solid var(--black);
-    background-color: #d8d8d8;
-
 }
 body.black{
     background-color: var(--black);
@@ -128,7 +126,6 @@ img.center{
     
 }
 #frame{
-    border: 5px solid #474646;
     margin: 0 0;
     padding: 0 0;
     width: 130%;
@@ -215,10 +212,22 @@ p{
     font-family: RGFont;
     font-size: 30px;
 }
-#content{
-    display: block;
-    align-items: flex-end;
-    justify-content: space-between;
+#content {
+    display: flex;
+    justify-content: center; /* Centers the article in the container */
+}
+
+article {
+    display: flex;
+    flex-direction: column; /* Keeps the heading and paragraph stacked */
+    align-items: center; /* Centers heading and paragraph */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers images inside the container */
+    gap: 20px; /* Adds space between the images */
+    
 }
 
 .glow {
@@ -236,6 +245,15 @@ p{
     }
     
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #4d5cff, 0 0 40px #4526f8, 0 0 50px #053fbc, 0 0 60px #4d85ff, 0 0 70px #120bdc, 0 0 80px #4d7aff;
+      text-shadow: 0 0 30px #fff, 0 0 30px #4d5cff, 0 0 40px #4526f8, 0 0 50px #053fbc, 0 0 60px #4d85ff, 0 0 70px #120bdc, 0 0 80px #4d7aff;
     }
   }
+
+  hr{
+    color: white;
+  }
+
+  img.frame{
+    border-style: ridge;
+    border-right-width: 4px;
+}

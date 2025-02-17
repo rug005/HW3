@@ -84,7 +84,7 @@ div.projects{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    border: 3px solid var(--black);
+    border: 3px solid white;
     background-color: #d8d8d8;
 
 }
@@ -171,8 +171,11 @@ h3.align{
 }
 #box2{
     border: 3px solid var(--black);
-    padding: 2px 20px;
+    padding: 2px 40px;
+    background-color: white;
     font-weight: bold;
+    font-family: RGFont;
+    font-size: 30px;
 }
 .blink_me{
     text-align: center;
@@ -210,3 +213,4 @@ h3.align{
     font-family: RGFont;
     src: url(RGFont-Regular.ttf);
 }
+

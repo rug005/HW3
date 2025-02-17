@@ -30,7 +30,7 @@
             <nav id="grid-img">
                 <figure style="align-self: flex-end;">
                     <h2> Theater </h2>
-                <picture>
+                <picture style="align-items: center;">
                     <source media="(max-width:500px)" srcset="Images/bts-ani.avif">
                     <source media="(max-width:800px)" srcset="Images/arduino.avif">
                     <img src="Images/parrot-bts.JPG" alt="Working on Animatronics" width="30%">
@@ -59,25 +59,28 @@
             </nav>
         </div>
         
-
+        <hr>
         <div id="content">
             <article>
-                <h2> Personal </h2>
-                <img src="/Images/lego-arduino.JPG" alt="Lego Arduino Build" width="500" height="300">
-                <img src="/Images/lego-lightshow.gif" alt="Lego Arduino Build" width="500" height="300">
+            <h2> Personal </h2>
+            <div class="img-container">
+                <img class="frame" src="/Images/lego-arduino.JPG" alt="Lego Arduino Build" width="500" height="300">
+                <img class="frame" src="/Images/lego-lightshow.gif" alt="Lego Arduino Build" width="500" height="300">
+            </div>
                 <p> I made an LED light show using Legos and an Arduino. </p>
             </article>
         </div>
                 
         
 
-                   
+        <hr>
         <!---------------------------------- Form to contact me  ---------------------------------->
         
         <!-- <h3 id="center-title"> Contact </h3> -->
          <h3 class="glow"> Contact </h3>
         <details> 
             <summary class="blink_me"> PRESS HERE </summary>
+            <p> &#x26A0; WORK IN PROGRESS &#x26A0; <br> Currently working on implementation.</p>
            <form action="/action_page.php">
             <fieldset style="margin: 1px 1px; padding: 5px 5px;">
                 <legend> Contact Me </legend>
@@ -107,19 +110,9 @@
            </form>
            </details>
 
-           <label for="main"> Select a category: </label>
-                    <select name="main" id="main">
-                        <optgroup label="Main Website">
-                            <option value="1"> 1 </option>
-                            <option value="2"> 2 </option>
-                        </optgroup>
-                        <optgroup label="Projects">
-                            <option value="1"> 1 </option>
-                            <option value="2"> 2 </option>
-                        </optgroup>
-                    </select>
+
            <hr>
-        <footer id="date"><pre> Last Updated Feb 10<sup>th</sup>, 2025 </pre></footer>
+        <footer id="date"><pre> Last Updated Feb 16<sup>th</sup>, 2025 </pre></footer>
             
     </body>
 </html>

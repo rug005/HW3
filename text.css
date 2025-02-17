@@ -11,7 +11,9 @@ header{
     background-color: #42526E;
     color: #ffffff
 }
-
+body{
+  color:white;
+}
 body.below-body{
     padding-top: 100px;
     background-color: #0a46ad;
@@ -57,7 +59,9 @@ nav a{
 }
 /* ======= Testing this out ======= */
 p{
-  color: white;
+  color: rgb(255, 255, 255);
+  font-family: RGFont;
+  font-size: 2rem;
 }
 h1{
   font-family: RGFont;
@@ -70,10 +74,11 @@ h1:hover{
 h1:has(+ p){
   margin-bottom: 0;
 }
+
 @media (color-gamut: srgb){
-  p{
+  p.alert{
     background-color: (in hsl, hsl(20, 89%, 45%), coral 80%);
-    color: white;
+    color: rgb(0, 0, 0);
   }
 }
 
@@ -95,6 +100,9 @@ body{
   body {
     background-color: #404456;
   }
+}
+blockquote{
+  color:white;
 }
 
 /* ======================== */

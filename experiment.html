@@ -30,7 +30,7 @@
       </nav>
   </header>
 
-    <hgroup style="margin-bottom: 50px;">
+    <hgroup style="margin-bottom: 100px;">
         <h2>Experimental Page </h2>
         <p>The purpose of this page is to experiment with different html elements.</p>
       </hgroup>
@@ -38,7 +38,7 @@
 
     <body>
     <dialog open>
-        <p>Don't press <kbd>CMD + Shift + W </kbd> </p>
+        <p class="alert">Don't press <kbd>CMD + Shift + W </kbd> </p>
         <form method="dialog">
             <audio id="swoosh" src="Music/Swoosh.mp3" type="audio/mp3"></audio>
             </audio>
@@ -46,7 +46,7 @@
         </form>
       </dialog>
 
-    <p> My favorite caffeinated drink is <del>Cold Brew</del> <ins> Matcha Latte </ins></p>
+    <p> My favorite caffeinated drink is <del>Cold Brew</del> <ins style="color:green"> Matcha Latte </ins></p>
     <p>
         My favorite quote is: <blockquote> “It is better to travel well than to arrive” </blockquote>
         My favorite book is <cite>The Godfather</cite> Novel by Mario Puzo
@@ -86,25 +86,39 @@
 
       <hr>
 
+      <h2 style="text-align: center; font-family:RGFont">Search website</h1>
     <nav>
-    <h1>Movie website</h1>
+    
     <search>
-        <form action="./search/">
-        <label for="movie">Find a Movie</label>
+        <form action="#q">
+        <label for="movie">Search</label>
          <input type="search" id="movie" name="q" />
          <button type="submit">Search</button>
     </form>
     </search>
   </nav>
+  <hr>
+
+  <label for="main"> Select a category: </label>
+  <select name="main" id="main">
+      <optgroup label="Main Website">
+          <option value="1"> 1 </option>
+          <option value="2"> 2 </option>
+      </optgroup>
+      <optgroup label="Projects">
+          <option value="1"> 1 </option>
+          <option value="2"> 2 </option>
+      </optgroup>
+  </select>
+
+  <hr>
+
 
   <nav>
     <callout-box type="tip">
       💡 <strong>Tip:</strong> Use meaningful variable names to improve code readability.
   </callout-box>
   
-  <callout-box type="warning">
-      ⚠️ <strong>Warning:</strong> Always validate user input to prevent security vulnerabilities.
-  </callout-box>
   
   <callout-box type="note">
       📝 <strong>Note:</strong> This website is still under development.
